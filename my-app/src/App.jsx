@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import AuthCard from './AuthCard'
+import Sidebar from './Sidebar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -117,6 +118,7 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section> */}
       <AuthCard />
+      <Sidebar />
     </>
   )
 }
