@@ -68,9 +68,9 @@ function Icon({ name, size = 20, className }) {
 function Logo() {
   return (
     <svg className="sb__logo" viewBox="0 0 36 36" aria-hidden="true">
-      <circle cx="18" cy="18" r="18" fill="#19b97a" />
-      <path d="M8.5 18 13 13.5l4.5 4.5-4.5 4.5z" fill="#fff" />
-      <path d="M18.5 18l4.5-4.5 4.5 4.5-4.5 4.5z" fill="#fff" />
+      <circle cx="18" cy="18" r="18" fill="var(--color-primary)" />
+      <path d="M8.5 18 13 13.5l4.5 4.5-4.5 4.5z" fill="var(--color-on-primary)" />
+      <path d="M18.5 18l4.5-4.5 4.5 4.5-4.5 4.5z" fill="var(--color-on-primary)" />
     </svg>
   );
 }
